@@ -1,0 +1,150 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #1b1f21;
+}
+
+main {
+  display: flex;
+}
+#contact{
+    flex-basis:25vw;
+}
+.first-chat {
+  display: flex;
+
+  flex-wrap: wrap;
+  align-content: center;
+}
+.flex-item img {
+  border-radius: 100%;
+  height: 2.5rem;
+}
+
+ul {
+  list-style: none;
+}
+.first-chat {
+  display: flex;
+  height: 12vh;
+  border: 0.5px solid #bec1bb;
+
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 45%;
+  width: 40px;
+  font-size: 20px;
+}
+.info p {
+  font-weight: 100;
+  font-size: 12px;
+  color: #444749;
+}
+i {
+  color: #828485;
+}
+.first-chat .flex-item {
+  display: flex;
+
+  width: 45%;
+}
+
+button {
+  width: 9rem;
+  height: 3rem;
+  background-color: #a491d2;
+  border: 0px;
+  color: #fff;
+  
+  
+}
+button:hover{
+    background-color: #cdc3e6;
+}
+button:focus{
+    background-color: #bec1bb;
+}
+.button {
+  border: 0.5px solid #bec1bb;
+  display: flex;
+  flex-direction: column;
+  height: 15vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-item {
+  justify-content: space-between;
+  width: 40vh;
+  align-items: center;
+  display: inline-flex;
+  flex-direction: row;
+}
+.list-chat {
+  display: flex;
+  height: 12vh;
+  border: 0.5px solid #bec1bb;
+  flex-direction: row;
+  align-content: center;
+  padding-left: 10%;
+ 
+}
+.list-chat img {
+  border-radius: 100%;
+  height: 3rem;
+  width: 3rem;
+}
+.info {
+  flex-grow: 3;
+  padding-left: 7%;
+}
+
+#chat {
+  background-color: #e8ebe4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 3%;
+  flex-basis: 80vw;
+}
+.img-hand img {
+  width: 20rem;
+  height: 20rem;
+}
+h2 {
+  text-align: center;
+  font-size: 40px;
+}
+.info-2 {
+  text-align: center;
+  width: 35vw;
+  font-family: "Open Sans", sans-serif;
+}
+
+.list-chat:hover
+{
+    background-color: #d4dcff;
+}
+.first-chat:hover {
+    background-color: #d4dcff;
+}
+
+.list-chat:focus
+{
+    background-color: #bec1bb;
+}
+.first-chat:focus {
+    background-color: #bec1bb;
+}
